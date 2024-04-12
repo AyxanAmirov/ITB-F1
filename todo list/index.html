@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- end -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./layout.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- css end -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="table-body">
+        <h3 class="site-name">Todo Siyahısı</h3>
+        <div class="add-todo">
+            <form id="add-body" class="form-body">
+                <input type="text"  id="add-input" class="text-input" placeholder="Todo əlavə edin">
+                <button class="btn">Todo Əlavə edin</button>
+            </form>
+        </div>
+        <div class="add-todo">
+            <h3 class="list-heading">Todo Siyahısı</h3>
+            <form class="form-body">
+                <input type="text"   class="text-input" placeholder="Axtarın">
+                <ul class="list-body">
+                    <!-- <li class="list-elem">
+                        abfvkjasnvlas
+                        <i class="fa-solid fa-xmark delete-btn"></i>
+                    </li> -->
+
+                </ul>
+                <button class="btn" id="remove-all-Todos">Bütün todoları təmizləyin</button>
+            </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
+
+
+

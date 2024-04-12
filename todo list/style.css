@@ -1,0 +1,58 @@
+.table-body{
+    margin-top: 40px;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+.site-name{
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+.add-todo{
+    padding: 1.75rem;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+.text-input{
+    width: 100%;
+    padding: 0.75rem 1.25rem;
+    border: 1px solid #D8D8D8;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.btn{
+  padding: 5px 10px;
+  background-color: #007BFF;
+  border-color: #007BFF;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.list-heading{
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+}
+.list-body{
+    margin-bottom: 20px
+
+}
+.list-elem{
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+.delete-btn{
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    transition: .3s ease;
+    cursor: pointer;
+    color: #000;
+}
+.delete-btn:hover{
+    color: red;
+}
