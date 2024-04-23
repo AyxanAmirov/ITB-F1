@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio Player</title>
+    <!-- css links -->
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./layout.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- end -->
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- end -->
+  </head>
+  <body>
+    <div class="music-body">
+      <audio
+        src="./assets/audios/yt1s.com - anna RF  Days and Nights UZUN İNCE BİR YOLDAYIM.mp3"
+      ></audio>
+      <div class="audio-player">
+        <div class="singer">
+          <img
+            src="./assets/images/maxresdefault.jpg"
+            alt="singer"
+            class="singer-img"
+          />
+          <div class="song-inform">
+            <h3 class="singer-name">anna RF</h3>
+            <marquee class="singer-name" direction="right"
+              >Days and Nights UZUN İNCE BİR YOLDAYIM</marquee
+            >
+          </div>
+        </div>
+        <input
+          type="range"
+          min="1"
+          max="100"
+          value="0"
+          class="slider"
+          id="myRange"
+        />
+        <span class="time">00:00</span>
+        <div class="controller">
+          <i class="fa-solid fa-backward control-icons" id="back"></i>
+          <i class="fa-solid fa-play control-icons" id="play"></i>
+          <i class="fa-solid fa-pause control-icons" id="pause"></i>
+          <i class="fa-solid fa-forward control-icons" id="forward"></i>
+        </div>
+        <div class="albums"></div>
+      </div>
+    </div>
+
+    <script src="./data.js" type="module"></script>
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
